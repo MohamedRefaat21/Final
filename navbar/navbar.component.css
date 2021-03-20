@@ -1,0 +1,33 @@
+.zoom
+{
+    height: 12vh;
+    background-image: url(/assets/slider.jpg);
+    background-size: cover;
+}
+.navbar .nav-link
+{
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.nav-link:hover
+{
+    color:goldenrod !important;
+}
+.nav-item ::after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#b8860b;
+    transition: width .3s;
+}
+
+.nav-item :hover::after
+{
+    width: 100%;
+    transition: width .3s;
+}

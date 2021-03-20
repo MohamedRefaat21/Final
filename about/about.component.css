@@ -1,0 +1,47 @@
+#about
+{
+    height: 100vh;
+    background-image: url(/assets/2.jpg);
+    background-size: cover;
+}
+.about-icon
+{
+    margin-left: 73px !important;
+    margin-top: 10px !important;
+    color:#b8860b;
+    font-size: 20px;
+    padding: 15px;
+    border-width: 3px #b8860b;
+    background-color: #000;
+    transition: all 0.5s;
+}
+.about-icon:hover
+{
+    
+    color: #b8860b;
+    border-color: #b8860b;
+}
+.caption-2
+{
+    position: relative;
+}
+
+.caption-2 h1::before
+{
+    content: "";
+    background-color: #b8860b;
+    position: absolute;
+    top: 85%;
+    left: 19%;
+    width: 10%;
+    height: 5px;
+    margin-left: 25%;
+}
+
+.btn:hover
+{
+    color:#fff;
+    background-color: black;
+    border: none;
+ 
+}

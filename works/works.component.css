@@ -1,0 +1,55 @@
+#works
+{
+    height: 130vh;
+    background-image: url(/assets/work55.jpg);
+    background-size: cover;
+}
+.caption-3
+{
+    position: relative;
+}
+
+.caption-3 h1::before
+{
+    content: "";
+    background-color: #b8860b;
+    position: absolute;
+    top: 70%;
+    left: 19%;
+    width: 10%;
+    height: 5px;
+    margin-left: 25%;
+}
+
+
+.col-md-8:hover
+{
+    box-shadow: 0 0 60px rgb(85, 107, 167) !important;
+}
+.col-md-9
+{
+    margin: auto;
+}
+.Fact 
+{
+    color: goldenrod;
+}
+.fact3
+{
+    color: red !important;
+    
+}
+.carousel-indicators
+{
+    background-color: black;
+    margin-left: 26%;
+    margin-bottom: 0%;
+}
+.fin
+{
+    color: red;
+}
+.din
+{
+    color:rgb(4, 88, 156);
+}

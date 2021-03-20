@@ -1,0 +1,47 @@
+#contact
+{
+height: 80vh;
+background-image: url(/assets/2.jpg);
+background-size: 100% 100%;
+text-align: center; 
+}
+.caption
+{
+text-align: center;
+}
+.form-control
+{
+
+border:none;
+border-bottom: 2px solid #ddd;
+padding: 14px;
+background-color: transparent;
+}
+.form-control:focus
+{
+background-color: transparent;
+color: #b8860b !important;
+}
+.caption
+{
+position: relative;
+}
+
+.caption h1::before
+{
+content: "";
+background-color: #b8860b;
+position: absolute;
+bottom: 25%;
+left: 19%;
+width: 15%;
+height: 5px;
+margin-left: 23%;
+}
+
+.btn:hover
+{
+
+background-color: #000;
+color: #fff;
+}
